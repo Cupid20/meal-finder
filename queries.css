@@ -17,6 +17,10 @@
 }
 
 @media(max-width: 33rem) {
+    .container {
+        margin-top: 1.5rem;
+    }
+
     .img {
         width: 20rem;
         height: 20rem;
@@ -44,9 +48,17 @@
         text-align: center;
         margin-right: 7rem;
     }
+
+    ul li {
+        margin-left: 1.5rem;
+    }
 }
 
 @media(max-width: 27rem) {
+    .container {
+        margin-top: 1.5rem;
+    }
+
     .img {
         width: 12rem;
         height: 12rem;
@@ -80,6 +92,10 @@
     ul {
         text-align: center;
         margin-right: 7rem;
+    }
+
+    ul li {
+        margin-left: 1.5rem;
     }
 
 }

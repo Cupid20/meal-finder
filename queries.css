@@ -1,0 +1,49 @@
+@media(max-width: 80rem) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img {
+        transform: none;
+    }
+}
+
+@media(max-width: 53rem) {
+    .img {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media(max-width: 33rem) {
+    .img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .content-container p {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width: 24rem) {
+    .img {
+        width: 12rem;
+        height: 12rem;
+        margin-bottom: 1rem;
+    }
+
+    .content-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .fav-btn {
+        font-size: 1rem;
+        width: 8rem;
+        padding: 0.7rem;
+        border-radius: 15px;   
+    }
+
+}
